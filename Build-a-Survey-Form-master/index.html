@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Programming Survey</h1>
+    <p id="description">We would love to know about which technology and tools software you are using! The opinion of everyone is very interesting to us!</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Your Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Your Name"><br>
+            <br>
+            <label id="email-label"><b>Your Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="your_mail@mail.xyz"><br>
+            <br>
+            <label id="number-label"><b>Your Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="18" max="99" placeholder="18+">
+         </div>
+
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>Are you working as a coder?</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="employed" checked> Yes, I am a Full-time job holder. (Employed)<br>
+            <input type="radio" class="radio-inline" name="gender" value="freelancer"> Yes, I am a Part-time job holder. (Freelancer)<br>
+            <input type="radio" class="radio-inline" name="gender" value="applier"> No, but I am a Looking for a job. (Applier)<br>
+            <input type="radio" class="radio-inline" name="gender" value="unemployed"> No, I am still studying. (Unemployed)
+          </div>
+          <div id="button-area"><br>
+            <label id="os-label"><b>Operating system experience: </b></label><br>
+            <input type="checkbox" name="os1" value="windows" checked> I work on Windows-OS<br>
+            <input type="checkbox" name="os2" value="linux"> I work on Linux-OS<br>
+            <input type="checkbox" name="0s3" value="mac"> I work on Mac-OS<br>
+          </div>
+
+          <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Which Programming languages are you already expert at? </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="C">C (Programming Language)</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Which Programming language do you want to learn more about? </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="C">C (Programming Language)</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Which of the latest IT technologies are you working with?</b></label><br>
+            <input type="checkbox" name="tech1" value="machLearn"> Machine Learning<br>
+            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
+            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
+            <input type="checkbox" name="tech3" value="git"> Github<br>
+            <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
+            <input type="checkbox" name="tech3" value="IoT"> Internet of Things<br>
+            <input type="checkbox" name="tech3" value="crypt"> Cryptology<br>
+          </div>
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Is there anything else we should know about?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Your recommendations should go here please..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

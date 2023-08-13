@@ -3,20 +3,12 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-demographic-data-analyzer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-demographic-data-analyzer/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-mean-variance-standard-deviation-calculator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-mean-variance-standard-deviation-calculator/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-medical-data-visualizer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-medical-data-visualizer/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-page-view-time-series-visualizer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-page-view-time-series-visualizer/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-polygon-area-calculator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-polygon-area-calculator/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-probability-calculator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-probability-calculator/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-rock-paper-scissors-1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-rock-paper-scissors-1/venv/src/python-lsp-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/boilerplate-sea-level-predictor" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/boilerplate-sea-level-predictor/venv/src/python-lsp-server" vcs="Git" />
   </component>
 </project>
